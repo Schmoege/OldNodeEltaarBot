@@ -1,0 +1,17 @@
+{
+  "name": "discordrpgbot",
+  "version": "1.0.0",
+  "description": "Discordbot för DnD",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "node build/main.js",
+    "tsc": "tsc"
+  },
+  "author": "Christoffer Isacsson",
+  "license": "GNU GPL",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "discord.js": "^12.2.0",
+    "typescript": "^3.9.5"
+  }
+}
